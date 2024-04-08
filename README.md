@@ -18,7 +18,7 @@ Follow the steps below
 
 1. Create a new class module in the VBE window
 2. Rename the class to `clsGetDataByADO`
-3. Paste the code in the page here
+3. Paste the code in the page [here](clsGetDataByADO.bas)
 
 ## Explanation of Class Procedures
 
