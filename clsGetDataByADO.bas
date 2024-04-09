@@ -51,7 +51,7 @@ Private Sub CreateWorkbook(Sht As Worksheet, TableName As String, ColumnName As 
     arrData = SQLFilter(Sht:=Sht, ColumnName:=ColumnName, ColumnValue:=ColumnValue)
     If IsEmpty(arrData) Then Exit Sub
     Dim arrHeaders As Variant
-    arrHeaders = WorksheetFunction.Transpose(shtData.ListObjects(TableName).HeaderRowRange.Value2)
+    arrHeaders = WorksheetFunction.Transpose(Sht.ListObjects(TableName).HeaderRowRange.Value2)
     'Create workbook
     Dim Wbk As Workbook
     Set Wbk = Workbooks.Add
