@@ -118,4 +118,8 @@ Public Sub GetData(Sht As Worksheet, TableName As String, ColumnName As String)
     'Loop to next item in arrColumn
     Next i
 End Sub
-``` 
+```
+
+
+
+https://www.erlandsendata.no/?t=vbatips&c=files%20%26%20folders&p=4079
